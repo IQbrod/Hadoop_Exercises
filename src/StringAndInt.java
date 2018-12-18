@@ -25,7 +25,7 @@ public class StringAndInt implements Comparable<StringAndInt>, Writable {
 		this.count = i;
 	}
 	
-	
+	// Ordonner le pays
 	@Override
 	public int compareTo(StringAndInt o) {
 		return o.count - this.count;
